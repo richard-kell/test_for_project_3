@@ -1,5 +1,4 @@
-from copyreg import pickle
-from turtle import pen
+
 import pandas as pd
 from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier

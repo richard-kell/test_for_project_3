@@ -1,6 +1,10 @@
 import streamlit as st
 import pickle
 
+st.title('Penguin Classifier')
+st.write('This app uses 6 inputs to predict the species of penguin using a model built in the Palmer\'s Penguin dataset.  Use the form below to get started!')
+
+
 rf_pickle = open('random_forest_penguin.pickle', 'rb')
 map_pickle = open('output_penguin.pickle', 'rb')
 rfc = pickle.load(rf_pickle)
