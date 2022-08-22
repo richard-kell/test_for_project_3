@@ -30,7 +30,7 @@ elif island_torgerson == 'Torgerson':
 
 sex_feamle, sex_male = 0, 0
 if sex == 'Female':
-    sex_female == 1
+    sex_female = 1
 elif sex == 'Male':
     sex_male = 1
 
