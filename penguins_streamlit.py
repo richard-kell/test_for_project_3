@@ -16,4 +16,4 @@ bill_depth = st.number_input('Bill Depth', min_value=0)
 flipper_length = st.number_input('Flipper Length (mm)', min_value=0)
 body_mass = st.number_input('Body Mass (g)', min_value=0)
 
-st.write('the user inputs are {}'.format(island, sex, bill_length, bill_depth, flipper_length, body_mass))
+st.write('the user inputs are {}'.format([island, sex, bill_length, bill_depth, flipper_length, body_mass]))
